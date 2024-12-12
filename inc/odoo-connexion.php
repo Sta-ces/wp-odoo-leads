@@ -17,9 +17,9 @@ class OdooConnexion extends ripcord{
         $this->username = $username;
         $this->password = $password;
 
-        //$info = self::client("$client_uri/start")->start();
-        //$common = self::client("$client_uri/xmlrpc/2/common");
-        //$common->version();
+        $info = self::client("$client_uri/start")->start();
+        $common = self::client("$client_uri/xmlrpc/2/common");
+        $common->version();
         echo "<pre style='margin: 50px 0 50px 250px;'>";
         print_r("Plugin Odoo leads is activated");
         echo "</pre>";
