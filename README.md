@@ -2,3 +2,6 @@
 
 # WP Odoo Leads
 It will connect your WordPress form with your Odoo ERP and create a lead on it.
+
+---
+Not working, because need more developers' help.
